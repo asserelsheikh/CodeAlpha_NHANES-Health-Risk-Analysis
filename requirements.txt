@@ -6,6 +6,7 @@ numpy
 matplotlib
 seaborn
 plotly
+altair
 
 # Machine Learning
 scikit-learn
