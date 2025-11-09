@@ -13,8 +13,7 @@ The aim is to:
 ## 🎯 Research Objectives
 1. Analyze demographic, behavioral, and clinical factors influencing chronic disease risks.  
 2. Investigate correlations between BMI, blood pressure, and glycohemoglobin (HbA1c).  
-3. Explore socioeconomic effects (education, income) on health outcomes.  
-4. Develop a machine learning model to predict individual health risk levels.  
+3. Explore socioeconomic effects (education, income) on health outcomes.   
 
 ---
 
@@ -115,23 +114,9 @@ This is the core of the analysis, exploring how variables interact.
     * Analyze `Smoking Status` vs. `AHA_Category` (Stacked bar chart).
     * Analyze `Alcohol Use` vs. `AHA_Category` (Stacked bar chart).
 
----
 
-## 3. Predictive Modeling Plan 
 
-* **Model 1: Diabetes Prediction**
-    * **Target:** `Diabetes_Status` (will be binarized: `Diabetes` vs. `Not Diabetes`).
-    * **Features:** `Age`, `Gender`, `Race`, `Education`, `BMI`, `Systolic Blood Pressure`, `Smoking Status`, `Alcohol Use`, `Income Ratio`.
-    * **Models:** Logistic Regression (for interpretability), Random Forest (for performance).
-    * **Goal:** Identify the **Top 5 most important factors** that predict diabetes.
-
-* **Model 2: Hypertension Prediction**
-    * **Target:** `AHA_Category` (will be binarized: `Hypertension` vs. `Normal/Elevated`).
-    * **Features:** `Age`, `Gender`, `Race`, `BMI`, `HbA1c`, `Smoking Status`, `Alcohol Use`, `Income Ratio`.
-    * **Models:** Logistic Regression, XGBoost.
-    * **Goal:** Build a high-accuracy model to screen for hypertension risk.
-
-## 4. How to Use This Repository
+## 3. How to Use This Repository
 
 1.  **Clone the repository:**
     ```bash
@@ -145,7 +130,7 @@ This is the core of the analysis, exploring how variables interact.
     * The `Data_Cleaning_NHANES.ipynb` notebook contains all the cleaning steps.
     * The `NHANES_cleaned.csv` file is the final dataset, ready for analysis.
 
-## 5. License
+## 4. License
 
 This project is licensed under the **MIT License**.
 ---
